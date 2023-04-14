@@ -1,0 +1,128 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+@font-face {
+  font-family: n-bold;
+  src: url("fonts/Poppins-Bold.ttf");
+}
+@font-face {
+  font-family: n-bold-i;
+  src: url("fonts/Poppins-BoldItalic.ttf");
+}
+@font-face {
+  font-family: n-boldx;
+  src: url("fonts/Poppins-ExtraBold.ttf");
+}
+@font-face {
+  font-family: n-i;
+  src: url("fonts/Poppins-Italic.ttf");
+}
+@font-face {
+  font-family: n;
+  src: url("fonts/Poppins-Regular.ttf");
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 50px 20px;
+  background: #efecec;
+}
+.main-card {
+  border-radius: 20px 20px 93px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.bold-t {
+  font-family: n-bold;
+}
+.boldx-t {
+  font-family: n-boldx;
+}
+.bold-i-t {
+  font-family: n-bold-i;
+}
+.i-t {
+  font-family: n-i;
+}
+.normal-t {
+  font-family: n;
+}
+.date-label {
+  letter-spacing: 2px;
+  font-size: 12px;
+  color: #777373;
+}
+.display {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-style: italic;
+  font-size: 3rem;
+}
+.num {
+  color: #8435eb;
+}
+
+input:focus-visible {
+  outline: none;
+}
+.form-control:focus {
+  border-color: #878787;
+  box-shadow: none;
+}
+.icon-container {
+  background: #864cff;
+  border-radius: 50%;
+  width: fit-content;
+  padding: 20px;
+}
+.icon-container:hover {
+  background: hsl(259, 97%, 59%);
+}
+.icon-container:active {
+  background-color: black;
+}
+.submit hr {
+  margin: 0;
+  flex: 1;
+}
+.fs-7 {
+  font-size: 0.65rem;
+}
+.w-10 {
+  width: 10%;
+}
+.input {
+  width: 110px;
+  height: 50px;
+}
+@media (max-width: 300px) {
+  .input {
+    width: 53px;
+    font-size: 12px !important;
+    height: 35px;
+    padding: 10px 9px !important;
+  }
+  .display {
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 300px) and (max-width: 576px) {
+  .input {
+    width: 68px;
+    font-size: 17px !important;
+    height: 35px px;
+    padding: 10px 9px !important;
+  }
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+  border-color: var(--bs-form-invalid-border-color);
+  background-image: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
