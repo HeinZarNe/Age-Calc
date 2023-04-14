@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [#](https://agecalc.netlify.app/)
 
 ## My process
 
@@ -61,5 +61,5 @@ I will learned more about JS, React and Next.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/HeinZarNe)
 - Facebook - [@HeinZarNe](https://www.facebook.com/LORD.x.25)
